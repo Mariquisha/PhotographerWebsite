@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233,228,221);
+}
+nav{
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    display: inline;
+    font-style: italic;
+}
+.navList{
+    font-family: 'Cormorant Garamond', serif;
+    display: inline;
+    padding-left: 120px;
+}
+li{
+    font-family: 'Cormorant Garamond', serif;
+}
+.navLink{
+    color: black;
+    text-decoration: none;
+}
+.navLink:hover{
+    color: rgb(173, 164, 159);
+}
+a:focus{
+    color: lightgreen;
+}
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 900px;
+    margin: 0 auto;
+  }
+.slide {
+    float: left;
+    height: 510px;
+    width: 900px;
+  }
+.slide-wrapper {
+    width: calc(900px * 4);
+    animation: slide 25s ease infinite;
+}
+.slide:nth-child(1) img {
+    width: 900px;
+  }
+   
+.slide:nth-child(2) img {
+    width: 900px;
+  }
+   
+.slide:nth-child(3) img {
+    width: 900px;
+  }
+   
+.slide:nth-child(4) img {
+    width: 900px;
+  }
+
+@keyframes slide {
+    20% {margin-left: 0px;
+      }
+    40% {
+        margin-left: calc(-900px * 1);
+      }
+     
+    60% {
+        margin-left: calc(-900px * 2);
+      }
+     
+    80% {
+        margin-left: calc(-900px * 3);
+      }
+    }
+#bigTitle{
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    width: 100%;
+    font-size: 80px;
+    margin: 20px 0px;
+}
+.titles{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+.serviceAbout{
+    height: 400px;
+    margin: 10px 80px;
+}
+.services{
+    display: inline;
+    display: flex;
+}
+.servHome{
+    width: 30%;
+}
+.servHomePara{
+    width: 70%;
+    text-align: left;
+}
+p{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+/*About Us*/
+#aboutSection{
+    width: 100%;
+    display: inline;
+    display: grid;
+    display: flex;
+}
+#aboutTitle{
+    width: 50%;
+    font-size: 85px;
+    font-family: 'Cormorant Garamond', serif;
+    z-index: 0;
+}
+#photographerPhoto{
+    width: 50%;
+    height: auto; 
+}
+/* recent work */
+img{
+    height: auto;
+    width: 200px;
+}
+/* contact page */
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Cormorant Garamond', serif;
+}
+input[type=submit], .button {
+    background-color: #7c7356;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    display: grid;
+    margin: auto;
+    width: 150px;
+  }
+  input[type=submit]:hover, .button:hover {
+    background-color: #516452;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  @media (min-width: 357px) and (max-width: 700px){
+     h1{
+        text-align: center;
+      }
+    .navList{
+        padding-left: 5px;
+      }
+
+    .services{
+        flex-direction: column;
+    }
+    .serviceAbout{
+        width: 100%;
+        height: 500px;
+        margin: 0px;
+        text-align: center;
+    }
+    #servicesStudio{
+        padding: 0px 50px;
+    }
+    #slideshow {
+        overflow: hidden;
+        height: 510px;
+        width: 100%;
+        margin: 0 auto;
+      }
+    .slide {
+        float: left;
+        height: 510px;
+        width: 900px;
+      }
+    .slide-wrapper {
+        width: calc(900px * 4);
+        animation: slide 25s ease infinite;
+    }
+    .slide:nth-child(1) img {
+        width: 900px;
+      }
+       
+    .slide:nth-child(2) img {
+        width: 900px;
+      }
+       
+    .slide:nth-child(3) img {
+        width: 900px;
+      }
+       
+    .slide:nth-child(4) img {
+        width: 900px;
+      }
+  }

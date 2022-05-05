@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Photographer</title>
+</head>
+<body>
+    <nav>
+        <h1>Honey Photography</h1>
+        <ul>
+            <li class="navList"><a class="navLink" href="index.html">Home</a></li>
+            <li class="navList"><a class="navLink" href="about.html">About</a></li>
+            <li class="navList"><a class="navLink" href="services.html">Services</a></li>
+            <li class="navList"><a class="navLink" href="recentworks.html">Recent Work</a></li>
+            <li class="navList"><a class="navLink" href="bookyourshoot.html">Book Your Shoot</a></li>
+        </ul>
+    </nav>
+    <section id="showcase">
+        <h1 id="bigTitle">Capturing Your <br> Magical Moments</h1>
+    </section>
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide">
+                <img src="images/event/pexels-lucas-mendes-3094435.jpg" alt="event">
+            </div>
+            <div class="slide">
+                <img src="images/event/pexels-sandro-crepulja-3352398.jpg" alt="photography">
+            </div>
+            <div class="slide">
+                <img src="images/pexels-mentatdgt-1526814.jpg">
+            </div>
+            <div class="slide">
+                <img src="images/event/pexels-janko-ferlic-590496.jpg" alt="event">
+            </div>
+            <div class="slide">
+                <img src="images/headshot/pexels-becca-correia-3770254.jpg" alt="headshot">
+            </div>
+        </div>
+    </div>
+    <section class='serviceAbout' id='servicesStudio'>
+        <h1 class='titles'>~Services~</h1>
+        <section class='services'>
+            <h2 class="servHome">+ Studio Photoshoots</h2>
+            <p class="servHomePara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempora blanditiis laboriosam magni, suscipit voluptatias nisi quaerat iste.</p>
+        </section>
+        <section class='services'>
+            <h2 class="servHome">+ Event Photoshoots</h2>
+            <p class="servHomePara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus hic, tempora impedit distinctio voluptas animi velit fuga dolor laudantium id maiores minima laborum eligendi ea, voluptatum quas magni, vitae omnis.</p>
+        </section>
+        <section class='services'>
+            <h2 class="servHome">+ Maternity & Gender Reveal Photoshoots</h2>
+            <p class="servHomePara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus hic, tempora impedit distinctio voluptas animi velit fuga dolor laudantium id maiores minima laborum eligendi ea, voluptatum quas magni, vitae omnis.</p>
+        </section>
+        <section class='services'>
+            <h2 class="servHome">+ Couples Photoshoots</h2>
+            <p class="servHomePara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quam quibusdam cum esse quo aspernatur fuga, facere asperiores quidem dignissim. Earum?</p>
+        </section>
+        <section class='services'>
+            <h2 class="servHome">+ Headshots</h2>
+            <p class="servHomePara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quam quibusdam cum esse quo aspernatur fuga, facere asperiores quidem dignissim. Earum?</p>
+    </section>
+        <a class="button" href="bookyourshoot.html"> Book Your Shoot</a>
+    <section class='serviceAbout'>
+        <h2 class='titles'>~About Us~</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nihil, reiciendis eius soluta, doloribus minus veniam voluptas optio omnis quam, quis aliquam incidunt asperiores doloremque aspernatur rem eveniet ut suscipit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus officia cupiditate dicta impedit velit nihil error pariatur id modi ratione, repellat minus facere iste deserunt aliquid dolores autem corporis! Modi.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nihil, reiciendis eius soluta, doloribus minus veniam voluptas optio omnis quam, quis aliquam incidunt asperiores doloremque aspernatur rem eveniet ut suscipit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus officia cupiditate dicta impedit velit nihil error pariatur id modi ratione, repellat minus facere iste deserunt aliquid dolores autem corporis! Modi.</p>
+    </section>
+    <section class='serviceAbout'>
+        <h2 class='titles'>~Testimonials~</h2>
+        <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Patur rem eveniet ut suscipit. sectetur adipisicing elit. Labore nihil, reiciendis eius soluta, doloribus minus veniam voluptas optio omnis quam, quis aliquam incidunt asperiores doloremque aspernatur rem eveniet ut suscipit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus officia cupiditate dicta impedit vel"</p>
+    </section>
+    <section>
+        <h2 class='titles'>~Contact Us~</h2>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address">
+
+            <label for="email">Which services are you interested in?</label>
+            <input type="text" id="contactService" name="service" placeholder="Choose up to 3 services">
+
+            <label for="email">When is your event date?</label>
+            <input type="date" id="date" name="date" placeholder="Select Date"></br></br>
+
+            <label for="subject">What did you have in mind for pictures?</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li class="navList"><a class="navLink" href="index.html">Home</a></li>
+            <li class="navList"><a class="navLink" href="about.html">About</a></li>
+            <li class="navList"><a class="navLink" href="services.html">Services</a></li>
+            <li class="navList"><a class="navLink" href="recentworks.html">Recent Work</a></li>
+            <li class="navList"><a class="navLink" href="bookyourshoot.html">Book Your Shoot</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
